@@ -1,24 +1,24 @@
-import logo from './logo.svg';
-import './App.css';
+// App.js
+import React from 'react';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { Home, Navbar } from './Component'; // ✅ Correct import from index.js
+import { AdsEarningPage, InvestmentArticles, MoneyMistakesPage, OnlineJobsPage, RegisterSacco } from './Page';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+      <Navbar />
+      <div className="px-4 pt-20">
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/register-sacco" element={<RegisterSacco/>} />
+          <Route path="/blog" element={<InvestmentArticles/>}/>
+          <Route path="/watch-ads" element={<AdsEarningPage/>}/>
+          <Route path="/blog/online-jobs" element={<OnlineJobsPage/>}/>
+          <Route path="/blog/money-mistakes" element={<MoneyMistakesPage/>}/>
+        </Routes>
+      </div>
+    </Router>
   );
 }
 
