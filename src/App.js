@@ -1,7 +1,7 @@
 // App.js
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import { Home, Navbar } from './Component'; // ✅ Correct import from index.js
+import { AboutMoneyYetu, Home, Navbar } from './Component'; // ✅ Correct import from index.js
 import { AdsEarningPage, InvestmentArticles, MoneyMistakesPage, OnlineJobsPage, RegisterSacco } from './Page';
 
 function App() {
@@ -16,6 +16,7 @@ function App() {
           <Route path="/watch-ads" element={<AdsEarningPage/>}/>
           <Route path="/blog/online-jobs" element={<OnlineJobsPage/>}/>
           <Route path="/blog/money-mistakes" element={<MoneyMistakesPage/>}/>
+          <Route path="/about" element={<AboutMoneyYetu/>}/>
         </Routes>
       </div>
     </Router>

@@ -2,5 +2,6 @@
 import Home from './Home';
 import Navbar from './Navbar';
 import Footer from './Footer';
+import AboutMoneyYetu from './About';
 
-export { Home, Navbar ,Footer}; // ✅ Named exports for organized imports
+export { Home, Navbar ,Footer,AboutMoneyYetu}; // ✅ Named exports for organized imports
