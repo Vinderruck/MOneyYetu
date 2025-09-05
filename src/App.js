@@ -3,7 +3,8 @@ import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import { AboutMoneyYetu, Home, Navbar } from './Component'; // ✅ Correct import from index.js
 import { AdsEarningPage, InvestmentArticles, MoneyMistakesPage, OnlineJobsPage, RegisterSacco } from './Page';
-
+import { Registration } from './Component/Internal';
+import './App.css'
 function App() {
   return (
     <Router>
@@ -11,6 +12,7 @@ function App() {
       <div className="px-4 pt-20">
         <Routes>
           <Route path="/" element={<Home />} />
+          <Route path="Register" element={<Registration/>}/>
           <Route path="/register-sacco" element={<RegisterSacco/>} />
           <Route path="/blog" element={<InvestmentArticles/>}/>
           <Route path="/watch-ads" element={<AdsEarningPage/>}/>

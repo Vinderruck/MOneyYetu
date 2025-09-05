@@ -9,64 +9,99 @@ const MoneyMistakesPage = () => {
       </h1>
 
       <p className="mb-4 text-md">
-        Many people struggle financially not because they don’t earn enough, but because of <strong>poor money habits</strong> that slowly drain their income and limit growth. Below are some of the most common financial mistakes people make — and how you can avoid them:
+        Many people struggle with money not because they don’t earn enough, but because of{" "}
+        <strong>poor financial habits</strong> that slowly drain their income and block growth. 
+        Below are the <strong>most common money mistakes</strong> people make — and practical tips 
+        on how to avoid them.
       </p>
 
-      <h2 className="mt-6 mb-2 font-semibold text-xl">1. 🛍️ Overspending Without Tracking</h2>
+      <h2 className="mt-6 mb-2 font-semibold text-xl">
+        1. 🛍️ Overspending Without Tracking
+      </h2>
       <p className="mb-4 text-md">
-        Buying things you don't need or spending impulsively (especially online or via mobile money) can quickly destroy your savings.
-        <br/>
-        <strong>Fix:</strong> Create a weekly or monthly budget and stick to it. Use tools or even a notebook to track where every coin goes.
+        Impulse buying and spending on unnecessary things (especially via{" "}
+        <strong>mobile money or online shopping</strong>) can quickly destroy your savings.
+        <br />
+        <strong>Fix:</strong> Create a <strong>weekly or monthly budget</strong> and stick to it. 
+        Track every expense using a budgeting app, mobile tool, or even a simple notebook.
       </p>
 
-      <h2 className="mt-6 mb-2 font-semibold text-xl">2. 📉 Living Beyond Your Means</h2>
+      <h2 className="mt-6 mb-2 font-semibold text-xl">
+        2. 📉 Living Beyond Your Means
+      </h2>
       <p className="mb-4 text-md">
-        Taking loans or using credit to maintain a lifestyle you can’t afford is a fast way to fall into debt.
-        <br/>
-        <strong>Fix:</strong> Live <em>below</em> your means. Focus on necessities first, then invest or save before spending on wants.
+        Using loans or credit to maintain a lifestyle you can’t afford is a quick way into debt.
+        <br />
+        <strong>Fix:</strong> Live <em>below your means</em>. Focus on needs first, then 
+        save and invest before spending on luxuries.
       </p>
 
-      <h2 className="mt-6 mb-2 font-semibold text-xl">3. 💰 Ignoring Savings & Emergency Funds</h2>
+      <h2 className="mt-6 mb-2 font-semibold text-xl">
+        3. 💰 Ignoring Savings & Emergency Funds
+      </h2>
       <p className="mb-4 text-md">
-        Waiting to "start saving later" or spending your entire income each month leaves you unprepared for emergencies.
-        <br/>
-        <strong>Fix:</strong> Start small. Even saving 5–10% of your income can add up. Use tools like <strong>chamas, SACCOs</strong>, or mobile wallets to build a habit.
+        Spending your entire income or waiting to "start saving later" leaves you unprepared 
+        for emergencies.
+        <br />
+        <strong>Fix:</strong> Start small — even saving <strong>5–10% of your income</strong> 
+        can add up. Use tools like <strong>chamas, SACCOs, or mobile wallets</strong> to 
+        build a saving culture.
       </p>
 
-      <h2 className="mt-6 mb-2 font-semibold text-xl">4. 🎯 No Financial Goals</h2>
+      <h2 className="mt-6 mb-2 font-semibold text-xl">
+        4. 🎯 No Financial Goals
+      </h2>
       <p className="mb-4 text-md">
-        Without goals, it’s easy to waste money because you’re not working toward anything.
-        <br/>
-        <strong>Fix:</strong> Set short and long-term goals (e.g. buying land, starting a business, paying school fees). Let your money have a purpose.
+        Without goals, money slips away easily because you’re not working toward anything.
+        <br />
+        <strong>Fix:</strong> Set <strong>short- and long-term goals</strong> (e.g., buying land, 
+        starting a business, paying school fees). Let your money have a purpose.
       </p>
 
-      <h2 className="mt-6 mb-2 font-semibold text-xl">5. ⚠️ Falling for Quick-Money Scams</h2>
+      <h2 className="mt-6 mb-2 font-semibold text-xl">
+        5. ⚠️ Falling for Quick-Money Scams
+      </h2>
       <p className="mb-4 text-md">
-        Scammers promise quick returns (especially online or through fake investments) and target people who want to “get rich fast.”
-        <br/>
-        <strong>Fix:</strong> Be cautious. Research every platform or investment. If it sounds too good to be true — it likely is.
+        Fraudsters promise “easy money” or unrealistic returns to lure victims into 
+        <strong>fake investments</strong>.
+        <br />
+        <strong>Fix:</strong> Always research before investing. If it sounds{" "}
+        <em>too good to be true — it probably is</em>. Stick to legit platforms and regulated 
+        financial institutions.
       </p>
 
-      <h2 className="mt-6 mb-2 font-semibold text-xl">6. 🧾 Avoiding Budgeting</h2>
+      <h2 className="mt-6 mb-2 font-semibold text-xl">
+        6. 🧾 Avoiding Budgeting
+      </h2>
       <p className="mb-4 text-md">
-        Thinking budgeting is boring or only for rich people is a dangerous mindset.
-        <br/>
-        <strong>Fix:</strong> Budgeting gives you control. It doesn’t restrict you — it empowers you. Start by writing down your income and expenses.
+        Many people think budgeting is stressful or only for the wealthy. In reality, 
+        skipping a budget creates money leaks.
+        <br />
+        <strong>Fix:</strong> Budgeting is a tool for <strong>financial control</strong>. 
+        Write down your income and expenses — it empowers you, not restricts you.
       </p>
 
-      <h2 className="mt-6 mb-2 font-semibold text-xl">7. 🕰️ Delaying Investments</h2>
+      <h2 className="mt-6 mb-2 font-semibold text-xl">
+        7. 🕰️ Delaying Investments
+      </h2>
       <p className="mb-4 text-md">
-        Many people wait too long to invest because they think they need a lot of money to start.
-        <br/>
-        <strong>Fix:</strong> Start with small, safe investments (like unit trusts, table banking, or low-risk SACCO projects). Learn as you grow.
+        Waiting until you have “a lot of money” before investing is a mistake that wastes 
+        time and opportunities.
+        <br />
+        <strong>Fix:</strong> Start small. Invest in{" "}
+        <strong>low-risk SACCO projects, unit trusts, or table banking</strong>. 
+        Learn as you grow and increase investments gradually.
       </p>
 
       <h2 className="mt-6 mb-4 font-semibold text-xl">✅ Summary</h2>
       <p className="mb-6 text-md">
-        Managing money well is not about how much you earn — it's about how you <strong>spend, save, and plan</strong>. Avoid these common traps, and you'll be on your way to financial freedom.
+        Managing money is not about how much you earn — it’s about how you{" "}
+        <strong>spend, save, and plan</strong>. By avoiding these{" "}
+        <strong>common financial mistakes</strong>, you take real steps toward{" "}
+        <strong>financial freedom and stability</strong>.
       </p>
 
-      <Footer/>
+      <Footer />
     </div>
   );
 };

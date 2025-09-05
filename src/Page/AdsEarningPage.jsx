@@ -9,15 +9,18 @@ const AdsEarningPage = () => {
       </h1>
 
       <p className="mb-4 text-md">
-        In this section, we highlight platforms and companies that offer real opportunities to earn income through
-        watching ads. These options work well for individuals and saving groups looking for flexible, small-scale online income.
+        Watching ads online is one of the simplest ways to start earning extra income. At{" "}
+        <strong>MoneyYetu</strong>, we connect individuals and savings groups with{" "}
+        <strong>legit ad platforms</strong> that pay for ad views, clicks, and interactions.
+        Whether you are looking for a side hustle or group earnings, this method is flexible,
+        beginner-friendly, and does not always require a website.
       </p>
 
-      <h2 className="mt-6 mb-2 font-semibold text-xl">📌 Recommended Platforms:</h2>
+      <h2 className="mt-6 mb-2 font-semibold text-xl">📌 Recommended Platforms</h2>
       <ul className="space-y-2 ml-6 text-md list-disc">
         <li>
-          <strong>Monetag</strong> – Sign up and generate <strong>direct links</strong> you can share anywhere — WhatsApp, social media, blogs, etc.
-          You earn every time someone clicks or engages with your link.
+          <strong>Monetag</strong> – Generate a <strong>SmartLink</strong> you can share on WhatsApp, Facebook,
+          Telegram, or blogs. You earn whenever people click or engage.
           <a
             href="https://monetag.com/?ref_id=uPoP"
             target="_blank"
@@ -28,78 +31,112 @@ const AdsEarningPage = () => {
           </a>
         </li>
         <li>
-          <strong>Adsterra</strong> – Another platform offering SmartLinks and referral earnings.
-          <span className="ml-2 text-gray-500">(You can explore later if needed)</span>
+          <strong>Adsterra</strong> – Offers SmartLinks and referral earnings.
+          <span className="ml-2 text-gray-500">(Great for social sharing)</span>
         </li>
         <li>
-          <strong>PropellerAds</strong> – Great for push notifications and monetization links.
+          <strong>PropellerAds</strong> – Provides push notifications and monetization links.
           <span className="ml-2 text-gray-500">(Optional)</span>
         </li>
       </ul>
 
       <h2 className="mt-6 mb-2 font-semibold text-xl">🔗 What is a Direct Link?</h2>
       <p className="mb-4 text-md">
-        A <strong>direct link</strong> is a unique tracking link that you can share online. When people click it, you earn money based on how many
-        people interact and where the traffic comes from. You don’t need a website — just the link and a place to share it.
+        A <strong>Direct Link (SmartLink)</strong> is a unique tracking link provided by ad networks.
+        When someone clicks it, you earn based on their location and engagement.
+      </p>
+      <p className="mb-4 text-md">
+        💡 Example: <em>1,000 clicks from the US/UK can pay $3–$10, while 1,000 clicks from Africa
+        may pay $0.10–$0.30.</em> This is why sharing links widely in groups and communities
+        is powerful.
       </p>
 
       <h2 className="mt-6 mb-2 font-semibold text-xl">🌐 Do You Need a Website?</h2>
       <p className="mb-4 text-md">
-        Some ad platforms require you to create or own a website before you can start earning. These include:
+        Some platforms require a website, but many do not. For example:
       </p>
       <ul className="mb-4 ml-6 text-md list-disc">
-        <li><strong>Google AdSense</strong> – Requires a site with original content.</li>
-        <li><strong>Media.net</strong> – Needs traffic from countries like the US and UK.</li>
-        <li><strong>Adsterra (Display Ads)</strong> – Works best if you have a blog or website.</li>
+        <li><strong>Google AdSense</strong> – Needs original website content.</li>
+        <li><strong>Media.net</strong> – Works best with traffic from US/UK.</li>
+        <li><strong>Adsterra (Display Ads)</strong> – Ideal for blogs or websites.</li>
       </ul>
       <p className="mb-4 text-md">
-        But don’t worry — there are platforms where <strong>no website is needed</strong> to start earning.
+        ✅ However, with <strong>Monetag</strong>, <strong>PropellerAds</strong>, and <strong>Adsterra SmartLink</strong>,
+        <strong> no website is needed</strong> — you can start right away.
       </p>
 
       <h2 className="mt-6 mb-2 font-semibold text-xl">✅ Platforms That DO NOT Require a Website</h2>
 
-      <h3 className="mt-4 mb-1 font-semibold text-lg">🔗 SmartLink / Direct Link Platforms:</h3>
+      <h3 className="mt-4 mb-1 font-semibold text-lg">🔗 SmartLink / Direct Link Platforms</h3>
       <ul className="mb-4 ml-6 text-md list-disc">
-        <li><strong>Monetag</strong> – Share your SmartLink anywhere. <a href="https://monetag.com/?ref_id=uPoP" target="_blank" rel="noreferrer" className="text-blue-600 underline">Register here</a>.</li>
-        <li><strong>PropellerAds</strong> – Offers direct link and push ad options.</li>
-        <li><strong>Adsterra SmartLink</strong> – No website needed if you choose SmartLink only.</li>
+        <li>
+          <strong>Monetag</strong> – Share your SmartLink anywhere.
+          <a
+            href="https://monetag.com/?ref_id=uPoP"
+            target="_blank"
+            rel="noreferrer"
+            className="ml-2 text-blue-600 underline"
+          >
+            Register here
+          </a>
+        </li>
+        <li><strong>PropellerAds</strong> – Direct links + push ads.</li>
+        <li><strong>Adsterra SmartLink</strong> – Works without a website.</li>
       </ul>
 
-      <h3 className="mt-4 mb-1 font-semibold text-lg">📊 Survey Sites (Earn by Completing Surveys):</h3>
+      <h3 className="mt-4 mb-1 font-semibold text-lg">📊 Survey Sites (Extra Earnings)</h3>
       <ul className="mb-6 ml-6 text-md list-disc">
-        <li><strong>Swagbucks</strong> – Watch ads, do surveys, and get rewarded.</li>
-        <li><strong>ySense</strong> – Global survey tasks that pay via PayPal or gift cards.</li>
-        <li><strong>Surveytime.io</strong> – Instant payout after each completed survey.</li>
-        <li><strong>InboxDollars</strong> – (US Only) Pays for ads and surveys.</li>
-        <li><strong>Toluna</strong> – Engage in surveys and community polls.</li>
-        <li><strong>TimeBucks</strong> – Earn via tasks, ad views, and surveys.</li>
+        <li><strong>Swagbucks</strong> – Watch ads, complete surveys, earn rewards.</li>
+        <li><strong>ySense</strong> – Global survey tasks (PayPal/gift cards).</li>
+        <li><strong>Surveytime.io</strong> – Instant payout per survey.</li>
+        <li><strong>InboxDollars</strong> – US-only ad and survey payouts.</li>
+        <li><strong>Toluna</strong> – Paid surveys and community polls.</li>
+        <li><strong>TimeBucks</strong> – Earn via ads, surveys, and micro-tasks.</li>
       </ul>
 
       <h2 className="mt-6 mb-2 font-semibold text-xl">⚠️ What to Expect</h2>
       <p className="mb-4 text-md">
-        This method is simple but not easy. You must stay <strong>consistent, creative, and patient</strong>. Not every link gets clicks. You’ll
-        need to test different platforms, learn what works, and keep trying.
+        This method is <strong>simple but requires consistency</strong>. Not every link will
+        bring clicks, so be patient and creative. Share daily, track results, and keep testing.
       </p>
       <p className="mb-6 text-md">
-        Groups can assign roles to increase reach — posting links on Facebook groups, forums, or messaging platforms.
+        👉 <strong>Groups</strong> can increase results by assigning roles — one person shares
+        links, another tracks clicks, another recruits new members.
+      </p>
+
+      <h2 className="mt-6 mb-2 font-semibold text-xl">🎯 Earn More with MoneyYetu Rewards</h2>
+      <p className="mb-4 text-md">
+        By registering on <strong>MoneyYetu</strong>, you unlock our{" "}
+        <strong>points system</strong>. Earn bonus points every time you share or interact
+        with links inside our platform. Compete on the leaderboard, track your activity, and
+        redeem points for rewards like airtime, savings contributions, or group benefits.
+      </p>
+      <p className="mb-6 text-md">
+        <a
+          href="/register"
+          className="font-semibold text-blue-600 underline"
+        >
+          👉 Register on MoneyYetu now and start earning points
+        </a>
       </p>
 
       <h2 className="mt-6 mb-2 font-semibold text-xl">📨 Need Help Registering?</h2>
       <p className="mb-4 text-md">
-        If you are having trouble registering on Monetag or need help creating your direct link, send us an email at{" "}
+        If you face challenges registering or creating your SmartLink, email us at{" "}
         <a href="mailto:support@mvdigitalsacco.com" className="text-blue-600 underline">
           support@mvdigitalsacco.com
         </a>{" "}
-        and we’ll guide you through it.
+        and our team will assist you.
       </p>
 
-      <h2 className="mt-6 mb-2 font-semibold text-xl">📝 N.B. – Join the MV Saving and Loan Group</h2>
+      <h2 className="mt-6 mb-2 font-semibold text-xl">📝 Join the MV Saving and Loan Group</h2>
       <p className="mb-6 text-md">
-        Members working through this earning method are welcome to join our MV Saving and Loan Group under the MVDS system.
-        This group helps track savings, plan loans, and grow together as you earn online.
+        Members who use this earning method can also join the{" "}
+        <strong>MV Saving and Loan Group</strong> under the MVDS system. Together, we
+        track savings, plan loans, and grow financially as a community.
       </p>
 
-      <Footer/>
+      <Footer />
     </div>
   );
 };
